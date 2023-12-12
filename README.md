@@ -1,1 +1,1 @@
-# Colecci-n-de-Ejercicios-Programaci-n-Estructurada
+# Coleccion-de-Ejercicios-Programacion-Estructurada
