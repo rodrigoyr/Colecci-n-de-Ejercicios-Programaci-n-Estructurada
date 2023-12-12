@@ -1,3 +1,5 @@
+#include <stdio.h>
+#define MAX_NOMBRE 50
 
 struct Estudiante {
     char nombre[MAX_NOMBRE];
