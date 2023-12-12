@@ -1,22 +1,20 @@
-typedef struct Estudiante Estudiante;
+#include <stdio.h>
+#include <string.h>
 
-struct Estudiante {
-    char nombre[50];
+typedef struct {
+    char nombre[100];
     int edad;
     float promedio;
-};
+} Estudiante;
 
-Estudiante estudiante1;
-strcpy(estudiante1.nombre, "Juan");
-estudiante1.edad = 20;
-estudiante1.promedio = 8.5;
+int main() {
+    Estudiante estudiante3;
 
-Estudiante estudiante2;
-strcpy(estudiante2.nombre, "Maria");
-estudiante2.edad = 22;
-estudiante2.promedio = 9.1;
+    strcpy(estudiante3.nombre, "Pedro");
 
-Estudiante estudiante3;
-strcpy(estudiante3.nombre, "Pedro");
-estudiante3.edad = 25;
-estudiante3.promedio = 9.7;
+    estudiante3.edad = 25;
+    estudiante3.promedio = 9.7;
+
+
+    return 0;
+}
