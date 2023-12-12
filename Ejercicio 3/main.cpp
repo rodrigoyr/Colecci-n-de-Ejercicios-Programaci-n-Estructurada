@@ -1,6 +1,7 @@
-#include <iostream>
-
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+struct Estudiante copiarEstudiante(struct Estudiante est) {
+    struct Estudiante nuevoEst;
+    strcpy(nuevoEst.nombre, est.nombre);
+    nuevoEst.edad = est.edad;
+    nuevoEst.promedio = est.promedio;
+    return nuevoEst;
 }
