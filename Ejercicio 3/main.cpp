@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include <string.h>
-
 #define MAX_NOMBRE 100
 
 struct Estudiante {
