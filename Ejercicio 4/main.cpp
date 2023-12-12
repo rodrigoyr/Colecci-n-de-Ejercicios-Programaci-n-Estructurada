@@ -1,6 +1,6 @@
-#include <iostream>
+typedef struct Estudiante Estudiante;
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+Estudiante estudiante3;
+strcpy(estudiante3.nombre, "Pedro");
+estudiante3.edad = 25;
+estudiante3.promedio = 9.7;
